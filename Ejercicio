@@ -1,0 +1,16 @@
+package javaapplication117;
+
+import javax.swing.*;
+public class Ejemplo extends JFrame{
+public Ejemplo(){ 
+ JCheckBox check = new JCheckBox("Inteligente");
+ add(check);
+}
+    public static void main(String[] args) {
+        
+ Ejemplo ej = new Ejemplo();
+ ej.setVisible(true);
+ ej.setBounds(100, 270, 570, 500);
+ }
+}
+   
